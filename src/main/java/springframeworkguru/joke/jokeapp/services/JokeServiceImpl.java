@@ -1,4 +1,4 @@
-package sproingframeworkguru.joke.jokeapp.services;
+package springframeworkguru.joke.jokeapp.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;
@@ -6,12 +6,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class JokeServiceImpl implements JokeService {
 
-    private final ChuckNorrisQuotes chuckNorrisQuotes;
+    private final ChuckNorrisQuotes chuckNorrisQuotes = new ChuckNorrisQuotes();
 
 
-    public JokeServiceImpl() {
+    /*public JokeServiceImpl() {
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
-    }
+    }*/
 
     @Override
     public String getJoke() {

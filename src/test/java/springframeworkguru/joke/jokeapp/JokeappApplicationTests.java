@@ -1,4 +1,4 @@
-package sproingframeworkguru.joke.jokeapp;
+package springframeworkguru.joke.jokeapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
